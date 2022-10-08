@@ -4,6 +4,7 @@ double distance (int x1, int y1, int z1, int x2, int y2, int z2) {
     double result = Math.Sqrt(addition);
     return result;
 }
+Console.WriteLine("Введите координаты: ");
 int x1 = int.Parse(Console.ReadLine());
 int y1 = int.Parse(Console.ReadLine());
 int z1 = int.Parse(Console.ReadLine());
