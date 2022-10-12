@@ -6,13 +6,9 @@ void fun (int A, int B) {
         stepen = Math.Pow(A, B);
         Console.WriteLine($"Степень числа: {stepen}");
     }
-    //else Console.WriteLine("Введите положительные числа");
+    else Console.WriteLine("Введите положительные числа");
 }
 int A = int.Parse(Console.ReadLine());
 int B = int.Parse(Console.ReadLine());
 fun(A, B);
 
-/*int A = int.Parse(Console.ReadLine());
-int B = int.Parse(Console.ReadLine());
-double stepen = Math.Pow(A, B);
-Console.WriteLine(stepen);*/
